@@ -1,2 +1,2 @@
 # Website-HowToBuildPC
-A fully responsive website demonstrating a step-by-step guide to building a personal computer from scratch.
+A fully responsive website demonstrating a step-by-step guide to building a personal computer from scratch. This website provides step-by-step instructions, images, and a clean, easy-to-navigate layout to help users choose components, assemble their PC, and get everything set up. Built with HTML and CSS, it reflects my skills in web development and UX/UI design, while also showing my ability to create clear, user-friendly tutorials.
