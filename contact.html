@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+<header>
+	<div id="main-menu">
+		<nav id="menu-area">
+			<ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="#">Steps</a>
+					<ul class="submenu-1">
+						<li><a href="step1.html">Step1</a></li>
+						<li><a href="step2.html">Step2</a></li>
+						<li><a href="step3.html">Step3</a></li>
+						<li><a href="step4.html">Step4</a></li>
+						<li><a href="step5.html">Step5</a></li>
+						<li><a href="step6.html">Step6</a></li>
+						<li><a href="step7.html">Step7</a></li>
+						<li><a href="step8.html">Step8</a></li>
+						<li><a href="step9.html">Step9</a></li>
+						<li><a href="step10.html">Step10</a></li>
+						<li><a href="step11.html">Step11</a></li>
+						<li><a href="step12.html">Step12</a></li>
+					</ul>
+				</li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header> 
+
+<div style="max-width: 800px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif;">
+    <h2 style="text-align: center; font-size: 2.5em; color: #333;">Contact Us</h2>
+    <p style="text-align: center; font-size: 1.2em; color: #555; margin-bottom: 30px;">
+        Have questions or need help? Fill out the form below, and we’ll get back to you as soon as possible!
+    </p>
+
+    <form action="sent.html" method="post" style="font-size: 1.1em;">
+        <fieldset style="border: 1px solid #ccc; padding: 40px 20px 20px 20px; border-radius: 5px;">
+            <legend style="font-weight: bold; font-size: 1.5em; margin-top: -20px; padding: 0 10px; background: #fff;">Contact Information</legend>
+            <ul style="list-style: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 15px;">
+                    <label for="form-name" style="display: block; font-weight: bold;">Name:</label>
+                    <input type="text" name="username" id="form-name" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;" required>
+                </li>
+                <li style="margin-bottom: 15px;">
+                    <label for="form-email" style="display: block; font-weight: bold;">Email Address:</label>
+                    <input type="email" name="emailaddress" id="form-email" style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;" required>
+                </li>
+                <li style="margin-bottom: 15px;">
+                    <label for="form-story" style="display: block; font-weight: bold;">What can we help with?</label>
+                    <textarea name="story" rows="5" cols="60" maxlength="1000" id="form-story" placeholder="No more than 1000 characters long" 
+                              style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+                </li>
+            </ul>
+        </fieldset>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <input type="submit" value="Send" style="padding: 10px 20px; font-size: 1.2em; color: #fff; background-color: #007BFF; border: none; border-radius: 5px; cursor: pointer;">
+        </div>
+    </form>
+</div>
+</body>
+</html>
