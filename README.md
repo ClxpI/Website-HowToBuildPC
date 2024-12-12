@@ -29,7 +29,8 @@ To explore the code of the website, you can browse the repository. Key files inc
 
 Here is a video walkthrough of the entire website, which demonstrates how the guide works from start to finish:
 
-[Watch the Website Walkthrough Video](#)
+
+https://github.com/user-attachments/assets/1d28bf5f-cc15-484f-a02e-45d1276c769e
 
 ## Future Plans
 
