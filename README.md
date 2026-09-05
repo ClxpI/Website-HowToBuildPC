@@ -22,8 +22,10 @@ A fully responsive website demonstrating a step-by-step guide to building a pers
 To explore the code of the website, you can browse the repository. Key files include:
 
 - **index.html**: The homepage of the website that introduces the tutorial and directs users to the first step.
-- **step1.html**: The first step of the tutorial, guiding users through selecting the right components for their build.
+- **step1.html – step12.html**: The full 12-step build tutorial, from component selection through final setup.
+- **about.html / contact.html / sent.html**: An About page and a working contact form (`contact.html` posts to `sent.html`).
 - **style.css**: Contains the website's styling, ensuring a clean and modern design.
+- **Resources/**: Reference photos for each PC component (CPU, GPU, motherboard, RAM, PSU, storage, etc.) used throughout the tutorial.
 
 ## Video Walkthrough
 
